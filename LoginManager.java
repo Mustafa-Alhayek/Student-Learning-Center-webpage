@@ -2,8 +2,9 @@ package slc;
 import java.util.Scanner;
 
 public class LoginManager {
-	private final String userName = "Mustafa2006";
-	private final String 	password = "passwOrd";
+	//This is for local testing; later, the system will be improved
+	private final String userName = "admin123";
+	private final String 	password = "Admin";
 	
 	Scanner scnr = new Scanner(System.in);
 	public boolean verifyAdmin() {
